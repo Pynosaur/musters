@@ -37,11 +37,3 @@ class Muster:
 
     def __repr__(self):
         return f'{self.muster}'
-
-
-m = Muster([1, 2, 3])
-m = m + m * m
-
-for trooper in m:
-    print(trooper)
-print(list(m))
